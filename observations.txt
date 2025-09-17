@@ -1,3 +1,1 @@
-# Example
-
 walk shop clean
