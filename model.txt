@@ -1,0 +1,20 @@
+states: Rainy Sunny
+symbols: walk shop clean
+
+start:
+Rainy 0.6
+Sunny 0.4
+
+trans:
+Rainy Rainy 0.7
+Rainy Sunny 0.3
+Sunny Rainy 0.4
+Sunny Sunny 0.6
+
+emit:
+Rainy walk 0.1
+Rainy shop 0.4
+Rainy clean 0.5
+Sunny walk 0.6
+Sunny shop 0.3
+Sunny clean 0.1
